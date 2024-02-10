@@ -1,0 +1,20 @@
+/* Module Build File */
+
+description     = "If the input changes during the cycle, the result is always true"
+ext {
+}
+niagaraModule {
+  moduleName = "proValueChangeBoolean"
+  preferredSymbol = "proDev"
+  runtimeProfile = "rt"
+}
+
+dependencies {
+  compile "Tridium:nre:4.11"
+  compile "Tridium:baja:4.11"
+}
+
+moduleTestJar {
+  from('srcTest') {
+  }
+}

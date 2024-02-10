@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module name="proValueChangeBoolean-rt" bajaVersion="0" vendor="Prosessiautomaatio" vendorVersion="1.0.0.1" description="If the input changes during the cycle, the result is always true" preferredSymbol="proDev" nre="true" autoload="true" installable="true" buildMillis="1707564129256" buildHost="MARKO-Lenovo-X1" moduleName="proValueChangeBoolean" runtimeProfile="rt">
+ <dependencies>
+  <dependency name="baja" vendor="Tridium" vendorVersion="4.11"/>
+ </dependencies>
+ <dirs/>
+ <types>
+  <type class="com.prosessiautomaatio.proValueChangeBoolean.BValueChangeBoolean" name="ValueChangeBoolean"/>
+ </types>
+ <permissions>
+  <niagara-permission-groups type="all"/>
+  <niagara-permission-groups type="workbench"/>
+  <niagara-permission-groups type="station"/>
+ </permissions>
+</module>
